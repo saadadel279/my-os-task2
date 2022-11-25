@@ -17,6 +17,8 @@ jobs:
       - name: 'print folder content'
                   
         run: ls 
+
+      - uses: actions/chekout@v3  
       
                   
         
