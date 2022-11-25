@@ -1,1 +1,27 @@
+on:
+  push:
+    branches:
+      - master
 
+
+
+jobs:
+  bulid:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: 'testing github action'
+                  
+        run: pwd
+
+      - name: 'print github action'
+                  
+        run: echo saad 
+       
+
+
+
+
+
+
+        
