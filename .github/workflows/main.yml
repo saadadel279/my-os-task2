@@ -14,9 +14,12 @@ jobs:
                   
         run: pwd
 
-      - name: 'print github action'
+      - name: 'print folder content'
                   
-        run: echo saad 
+        run: ls 
+      
+                  
+        
        
 
 
